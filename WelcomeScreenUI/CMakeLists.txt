@@ -1,0 +1,9 @@
+SET(SOURCES screens/ui_WelcomeScreen.c
+    ui.c
+    components/ui_comp_hook.c
+    ui_helpers.c
+    images/ui_img_toyota_logo_170x93_png.c
+    images/ui_img_toyota_forklift_truck_400x360_png.c
+    images/ui_img_toyota_forklift_truck_417x374_png.c)
+
+add_library(ui ${SOURCES})
